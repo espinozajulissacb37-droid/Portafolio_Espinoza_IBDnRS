@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #94eaa6, #94c6ea , #d167b3 );
+    background-size: cover;
+
+    text-align: center;
+    justify-content: center;
+
+    margin: 0;
+    min-height: 100vh;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #131141;
+    line-height: 1.6;
+    padding:50px;
+    min-height: 100vh;
+
+}
+
+button{
+    border-radius: 25px;
+    height: 3rem;
+    width: 9rem;
+
+    background-color: #70e7e7;
+    border-color: #d167b3;
+    color: #8f0f57;
+}
+
+/*Pagina principal*/
+.container{
+display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto; 
+}
+
+.card {
+    width: 500px;
+    min-height: 400px;
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(243, 255, 132, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    overflow: hidden;
+}
+.card:hover {
+    transform: translateY(-10px) scale(1.02); 
+    box-shadow: 0 12px 25px rgba(255, 182, 193, 0.5);
+}
+
+.regresar{
+    height: 4rem;
+    width: 300px;
+    color: #d167b3;
+    font-size: 2rem;
+    font-family:fantasy;
+}
+
+/*Parcial 1*/
+
+.container2{
+    background-color: azure;
+    border-radius: 25px;
+}
+
+ul{
+    color: #d167b3;
+    font-family:monospace;
+    font-size: 20px;
+    transition: 0.5s;
+}
+ul:hover{
+    color: #79d27e;
+}
